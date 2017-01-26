@@ -25,8 +25,8 @@
 - 对评审人的建议要怀抱感恩之意。（“好建议，我会做出修改”）
 - 不要把评审这事当作是针对个人的。评审的是代码，不是你。
 - 向别人解释此代码存在的原因。（“很有可能是因为这些原因。如果我重命名这个类/文件/方法/变量，会不会更清晰一些？”）
-- Extract some changes and refactorings into future tickets/stories.
-- Link to the code review from the ticket/story. ("Ready for review:
+- 把一些更改和重构的工作抽象为对未来可能发生的问题的预先构想。Extract some changes and refactorings into future tickets/stories.
+- 从这个预先构想链接到代码审核。（“准备好被审核：https://github.com/organization/project/pull/1”）Link to the code review from the ticket/story. ("Ready for review:
   https://github.com/organization/project/pull/1")
 - 推送提交要基于上一轮的反馈，独立地将此次提交推送到分支上。不能等到分支即将被合并了，才把积压的改动做一次提交。评审人要能基于他们早期的反馈读到个人的更新。
 - 试着去理解评审人的观点。
