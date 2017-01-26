@@ -9,7 +9,7 @@
 - 要承认许多代码上的决策体现了不同的观念。把你赞同的观念拿来与人讨论权衡之策，并快速得到解决方案。
 - 提问，但不是提出需求。（比如“对这个变量`:user_id`命名，你有什么想法？”）
 - 要求澄清。（“我不理解，你可以解释一下吗？”）
-- ？避免在代码的归属问题上挑三拣四。（“我的代码”， “不是我的代码”，“你的代码”）
+- 避免在代码的归属问题上挑三拣四。（“我的代码”， “不是我的代码”，“你的代码”）
 - 避免使用会被认为与个人特质有关的词汇（“愚蠢”、“傻”），要假定每一个人都是聪明且善意的。
 - 措辞明确。要记住在线的人并不是总能理解你的意图。
 - 措辞谦逊。（“我不是很确定，让我们查阅一下”）
@@ -51,8 +51,7 @@
 
 ## 评论式样
 
-评审人应该按照这个[style](../style)指南，评论式样：Reviewers should comment on missed [style](../style)
-guidelines. Example comment:
+评审人应该按照这个[style](../style)指南，评论式样：
 
 ```
 [Style](../style):
@@ -62,16 +61,13 @@ guidelines. Example comment:
 > Order resourceful routes alphabetically by name.
 ```
 
-一个回复评论的的式样：An example response to style comments:
+一个回复评论的的式样：
 
 ```
 Whoops. Good catch, thanks. Fixed in a4994ec.
 ```
 
-如果你不并不同意某个指南，请在这份指南库上新开一个任务，而不是在在代码审核时争论此事。同时，请遵守指南。If you disagree with a guideline, open an issue on the guides repo rather than
-debating it within the code review. In the meantime, apply the guideline.
-
-
+如果你不并不同意某个指南，请在这份指南库上新开一个任务，而不是在在代码审核时争论此事。同时，请遵守指南。
 
 
 
